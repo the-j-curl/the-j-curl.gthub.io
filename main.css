@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+}
+
+h1 {
+    line-height: 30px;
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 2px 2px 2px 15px;
+    
+}
+
+.container-outside {
+    background-color: #0099ff;
+}
+
+.container {
+    background-color: white;
+    padding: 0.8em 0.8em;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 30px;
+    width: 90%;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+/*
+.intro ul {
+    list-style-type: none;
+} 
+*/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a :hover {
+    color: #0099ff;
+}
+
+.banner {
+    width:100%;
+}
+
+h2 {
+    font-style: italic;
+}
+
+/*.bio {
+    float: right;
+    margin-right: 1em;
+    font-size: 14px;
+    padding: 0;
+    margin-left: 0;
+}
+*/
+
+.intro {
+    text-align: center;
+}
+
+.intro p {
+    text-align: left;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.intro h2 {
+    text-align: left;
+}
+
+.bio-pic {
+    width: 40%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-block {
+    width: 300px;
+    display: inline-grid;
+    padding: 1px 1px 1px 3px;
+    border: none;
+    margin: 15px 5px 2px 5px;
+    height: auto;
+   
+}
+
+.text-block li {
+    font-size: 0.8em;
+    text-align: left;
+    line-height: 30px;
+}
+
+.text-block h3 {
+    text-align: center;
+}
+.coming-soon {
+    text-align: center;
+    color: #0099ff;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    font-size: small;
+    margin-top: 60px;
+}
+
+hr {
+    border: 1px solid rgb(187, 185, 185);
+}
+
+.instagram-img {
+    height: 25px;
+    margin: 0 5px;
+}
+
+.linkedin-img {
+    height: 25px;
+    margin: 0 5px;
+}
+
+.github-img {
+    height: 25px;
+    margin: 0 2px;
+}
+
+@media only screen and (min-width: 850px){
+    .container {
+        width: 80%;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+    }
+    
+    .nav {
+        float: right;
+        margin-top: 20px;
+    }  
+    
+    .bio-pic {
+        width: 35%;
+        
+    }
+    
+    .intro {
+        width: 80%;
+        border: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .intro p {
+        font-size: 16px;
+        line-height: 20px;
+       
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .intro {
+        width: 65%;
+    }
+
+    .bio-pic {
+        width: 25%
+    }
+
+    .intro p {
+        line-height: 25px;
+       
+    }
+
+    .text-block li {
+        font-size: 0.9em;
+    }
+}
+
